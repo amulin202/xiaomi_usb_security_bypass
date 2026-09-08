@@ -1,0 +1,6 @@
+id=xiaomi_usb_sec_bypass
+name=Xiaomi USB Security Bypass
+version=v1.0
+versionCode=1
+author=CHERWIN
+description=Enable "USB debugging (Security settings)" / "USB install" / fastboot on rooted MIUI without Mi account & SIM. Sets persist.security.adbinstall, persist.security.adbinput, persist.fastboot.enable to 1 on every boot so scrcpy/Total Control etc. can inject input.

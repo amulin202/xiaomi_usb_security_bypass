@@ -1,0 +1,8 @@
+# Force LF for scripts & config that run on Android/Linux (CRLF would break /bin/sh)
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.prop text eol=lf
+*.md   text eol=lf
+*.gitignore text eol=lf
