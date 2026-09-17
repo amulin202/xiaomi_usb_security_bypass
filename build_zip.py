@@ -14,7 +14,10 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 FILES = [
     ("module.prop", 0o644),
     ("system.prop", 0o644),
+    ("common.sh", 0o644),
+    ("post-fs-data.sh", 0o755),
     ("service.sh", 0o755),
+    ("action.sh", 0o755),
     ("customize.sh", 0o755),
     ("README.md", 0o644),
 ]
